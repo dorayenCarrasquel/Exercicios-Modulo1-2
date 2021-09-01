@@ -27,5 +27,24 @@ public class L7EX006 {
         System.out.println("por favor, indique um valor final para seu intervalo: ");
         valorFinal = leitor.nextInt();
 
+        if (valorInicial >= valorFinal) {
+            System.out.println("Intervalo de Valores Inválidos");
+        } else {
+            while (valorInicial <= valorFinal) {
+
+                if (valorInicial % 2 == 0) {
+
+                }
+                else {
+                    numImpares = valorInicial;
+                    System.out.println(numImpares);
+                }
+                valorInicial++;
+
+
+
+            }
+        }
+
     }
 }
