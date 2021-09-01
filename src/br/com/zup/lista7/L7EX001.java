@@ -1,4 +1,4 @@
-package br.com.zup;
+package br.com.zup.lista7;
 //1 - Escreva um programa que escreva na tela,
 // de 1 até 100, de 1 em 1, 2 vezes. A primeira
 // vez com "for" e a segunda com "while".

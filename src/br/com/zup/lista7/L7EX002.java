@@ -1,4 +1,4 @@
-package br.com.zup;
+package br.com.zup.lista7;
 
 import java.util.Scanner;
 
