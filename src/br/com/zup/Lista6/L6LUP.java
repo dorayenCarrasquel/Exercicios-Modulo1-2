@@ -14,21 +14,45 @@ package br.com.zup.Lista6;
 // parâmetro o email e não permite inserir um aluno com o email
 // repetido.
 
-import java.util.Scanner;
+import java.util.*;
 
 public class L6LUP {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
-
+        // List<String> cadastroAlunos = new ArrayList<>();
         // variable
         int numeroDeAlunos = 0;
+        int contador = 1;
+        String correo;
+        String nomeTelefone;
+
+        //String telefone;
 
         //
         System.out.println("Digite o números de alunos a cadastrar: ");
         numeroDeAlunos = leitor.nextInt();
 
-        //
-        while
+        Map<String, String> cadastro = new HashMap<String, String>();
+
+
+        while (contador <= numeroDeAlunos) {
+            System.out.println("Digite os dados do aluno: ");
+            System.out.println("***********************");
+
+            System.out.println("Digite o nome do aluno seguido de ; e o telefone: ");
+            nomeTelefone = leitor.nextLine();
+            System.out.println("Digite Email: ");
+            correo = leitor.nextLine();
+            System.out.println("***********************");
+
+            cadastro.put(correo, nomeTelefone);
+
+            contador++;}
+        }
+        for (String referencia : cadastro.keySet()) {
+            System.out.println("E-mail: " + referencia + " Aluno: " + cadastro.get(referencia));
+
+        }
 
 
     }
