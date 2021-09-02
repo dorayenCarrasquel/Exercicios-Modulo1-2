@@ -25,9 +25,10 @@ public class L7EX004 {
                 System.out.println("Valor invalido, digite o número " + contador + ": ");
             } else {
                 soma = soma + numUsuario;
-                System.out.println("a soma dos valores é de: " + soma);
                 contador++;
             }
+
         }
+        System.out.println("a soma dos valores é de: " + soma);
     }
 }

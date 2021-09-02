@@ -38,6 +38,8 @@ public class L7EX006 {
                 else {
                     numImpares = valorInicial;
                     System.out.println(numImpares);
+                    soma = soma + numImpares;
+                    System.out.println("A soma dos números impares é: "+soma);
                 }
                 valorInicial++;
 
